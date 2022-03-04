@@ -1,0 +1,17 @@
+Instructions for running Song Extender:
+
+1. Install all the relevant python modules
+
+Use pip3 install -r requirements.txt
+
+3. Run the program, when the prompt comes up to enter the url you were redirected to, copy the url it says to go into a browser and login to spotify. After logging in you should be redirected to a page, that starts with 'http://localhost:8888'
+
+(Its okay that it doesn't connect to anything, we just need the url)
+
+Copy that long url and paste it into the prompt for the redirect url.
+
+4. For some reason, you'll get a better run if you stop the python script and start it again.
+
+If you want to do a different song, you have to change the songID value in the run() method. You also have to have spotify installed on the computer you are trying this on. You'll have to have it open when you run this (I thinkk)
+
+To get a different URI to play, go to spotify and copy the Song URI, and from that copy the long string of numbers and replace the songID with that.
